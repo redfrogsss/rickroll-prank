@@ -16,7 +16,8 @@ export default function Home() {
 
     // run on this page loaded
     useEffect(()=>{
-        const randomIndex = Math.floor(Math.random() * pages.length);
+        let randomIndex = Math.floor(Math.random() * pages.length);
+        while (randomIndex === 0) randomIndex = Math.floor(Math.random() * pages.length); // make sure not to navigate to home page
         const randomPage = pages[randomIndex];
         console.log("navigate to random page: ", randomPage.path);
         navigate(randomPage.path);
