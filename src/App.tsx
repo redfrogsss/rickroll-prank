@@ -34,7 +34,7 @@ const GitHubLink = () => {
   const url = "https://github.com/redfrogsss/rickroll-prank";
 
   return (
-    <a href={url} target="_blank" title="Source code of this project" className="absolute top-0 right-0 z-50">
+    <a href={url} target="_blank" title="Source code of this project" className="fixed top-0 right-0 z-50">
       <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 250 250" fill="#fff">
         <path d="M0 0l115 115h15l12 27 108 108V0z" fill="#151513" />
         <path  d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16" fill="#fff"/>
