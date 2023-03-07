@@ -13,6 +13,7 @@ const rickroll = [
   "https://youtu.be/mW61VTLhNjQ",
   "https://youtu.be/-DdkOB0htO0",
   "https://youtu.be/lpiB2wMc49g",
+  "https://youtu.be/hvL1339luv0",
 ]
 
 const pages = [
