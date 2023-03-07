@@ -19,10 +19,30 @@ type ButtonProps = {
 const Button = ({color, children} : ButtonProps) => {
 
     const url = getRickrollLink();
-    const colorClass = "bg-" + color + "-800 w-full h-full text-white rounded-lg text-xl";
+
+    if (color === "red") {
+        return (
+            <a href={url} className="bg-red-800 w-full h-full text-white rounded-lg text-xl" target="_self"><div className="w-full h-full flex flex-col justify-center items-center">{children}</div></a>
+        );
+    }
+    if (color === "blue") {
+        return (
+            <a href={url} className="bg-blue-800 w-full h-full text-white rounded-lg text-xl" target="_self"><div className="w-full h-full flex flex-col justify-center items-center">{children}</div></a>
+        );
+    }
+    if (color === "yellow") {
+        return (
+            <a href={url} className="bg-yellow-800 w-full h-full text-white rounded-lg text-xl" target="_self"><div className="w-full h-full flex flex-col justify-center items-center">{children}</div></a>
+        );
+    }
+    if (color === "green") {
+        return (
+            <a href={url} className="bg-green-800 w-full h-full text-white rounded-lg text-xl" target="_self"><div className="w-full h-full flex flex-col justify-center items-center">{children}</div></a>
+        );
+    }
 
     return (
-        <a href={url} className={colorClass} target="_self"><div className="w-full h-full flex flex-col justify-center items-center">{children}</div></a>
+        <a href={url} className="bg-blue-800 w-full h-full text-white rounded-lg text-xl" target="_self"><div className="w-full h-full flex flex-col justify-center items-center">{children}</div></a>
     );
 }
 
