@@ -70,7 +70,7 @@ export default function KahootQuestion() {
         <div className="w-screen h-screen bg-zinc-200">
             <NavBar />
             <div className="w-full h-full flex flex-col justify-center items-center">
-                <div className="w-5/6 h-full bg-white rounded-lg shadow-lg flex flex-col justify-center items-center m-32 p-8">
+                <div className="w-full lg:w-5/6 h-full bg-white rounded-lg shadow-lg flex flex-col justify-center items-center m-0 lg:m-32 p-4 lg:p-8">
                     <article className="prose text-center">
                         <h1 className="text-3xl">🤔 Question 1: Finish the sentence</h1>
                         <p className="text-xl">🎤 Never Gonna...</p>
