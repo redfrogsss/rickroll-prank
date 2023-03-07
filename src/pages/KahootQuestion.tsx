@@ -43,14 +43,14 @@ export default function KahootQuestion() {
             <div className="w-full h-full flex flex-col justify-center items-center">
                 <div className="w-5/6 h-full bg-white rounded-lg shadow-lg flex flex-col justify-center items-center m-32 p-8">
                     <article className="prose text-center">
-                        <h1 className="text-3xl">Question 1: Finish the sentence</h1>
-                        <p className="text-xl">Never Gonna...</p>
+                        <h1 className="text-3xl">🤔 Question 1: Finish the sentence</h1>
+                        <p className="text-xl">🎤 Never Gonna...</p>
                     </article>
                     <div className="w-full h-1/2 grid grid-cols-2 gap-4 mt-16">
-                        <Button color="red">Give You Up.</Button>
-                        <Button color="blue">Let You Down.</Button>
-                        <Button color="yellow">Run Around.</Button>
-                        <Button color="green">Desert You.</Button>
+                        <Button color="red">🔴 Give You Up. </Button>
+                        <Button color="blue">🔷 Let You Down.</Button>
+                        <Button color="yellow">🟨 Run Around.</Button>
+                        <Button color="green">💚 Desert You.</Button>
                     </div>
                 </div>
             </div>
